@@ -1,0 +1,58 @@
+.container h1 {
+    font-family: bely-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+    margin: auto;
+    padding: 30px;
+    /* border: red solid 1px; */
+    min-width: 400px;
+    max-width: 80%;
+}
+
+a, #project {
+    border-radius: 2px;
+    padding: 2px 8px;
+    color: white;
+    margin-right: 1px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;;
+}
+
+.html {
+    color: orangered;
+}
+
+.css {
+    color: darkblue;
+}
+
+.js {
+    color: darkgoldenrod;
+}
+
+#to-do-list {
+    text-decoration: none;
+    color: white;
+    background-color: green;
+}
+
+#project {
+    color: white;
+    background-color: gray;
+}
