@@ -45,10 +45,20 @@ li {
     color: darkgoldenrod;
 }
 
+.php {
+    color: purple;
+}
+
 #to-do-list {
     text-decoration: none;
     color: white;
     background-color: green;
+}
+
+#coffee {
+    text-decoration: none;
+    color: white;
+    background-color: burlywood;
 }
 
 #project {
