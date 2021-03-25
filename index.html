@@ -19,22 +19,19 @@
     <div class="container">
         <h1>CODED by JIHO</h1>
         <p>Hello! Welcome to this space where I post personal web projects!</p>
-        <p>Click on the <span id="project">project name</span> to visit!</p>
-        <br/>
         <ul>
-            <li>
-                <a id="to-do-list" href="../frontend/to-do-list/todolist.html" target="_blank">To-do List</a>
-            </li>
-            <li>
-                A simple online to-do-list using <span class="html">HTML</span>, <span class="css">CSS</span>, <span class="js">JQuery</span>. Used Web Storage API to save the list into local storage.
-            </li>
-            <br/>
-            <li>
-                <a id="coffee" href="https://jiho-php.herokuapp.com/coffee-order-form/form.php" target="_blank">Coffee Order Form</a>
-            </li>
-            <li>
-                A small coffee order form created using <span class="html">HTML</span>, <span class="css">Bootstrap</span>, <span class="php">PHP</span>. To read the PHP, the files were deployed using Heroku.
-            </li>
+            <a href="../frontend/to-do-list/todolist.html" target="_blank">
+                <li class="section">
+                    <p><span id="to-do-list" class="tagged">To-do List</span> A simple online to-do-list where you can create, save, and delete things to do.</p>
+                    <p class="tags"><span class="tagged html">HTML</span> <span class="tagged css">CSS</span> <span class="tagged js">JQuery</span> <span class="tagged api">Weatherbit.io API</span> <span class="tagged api">Web Storage API</span></p>
+                </li>
+            </a>
+            <a href="https://jiho-php.herokuapp.com/coffee-order-form/form.php" target="_blank">
+                <li class="section">
+                    <p><span id="coffee" class="tagged">Coffee Order Form</span> Coffee order form that takes in order and presents it to a different page.</p>
+                    <p class="tags"><span class="tagged html">HTML</span> <span class="tagged css">Bootstrap</span> <span class="tagged php">PHP</span> <span class="tagged other">Heroku</span></p>
+                </li>
+            </a>
         </ul>
     </div>
 </body>
