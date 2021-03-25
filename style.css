@@ -17,7 +17,7 @@ body {
     width: 80%;
 }
 
-a, #project {
+#project {
     border-radius: 2px;
     padding: 2px 8px;
     color: white;
@@ -34,34 +34,71 @@ li {
 }
 
 .html {
-    color: orangered;
+    background-color: orangered;
 }
 
 .css {
-    color: darkblue;
+    background-color: darkblue;
 }
 
 .js {
-    color: darkgoldenrod;
+    background-color: #f2dd1f;
 }
 
 .php {
-    color: purple;
+    background-color: purple;
+}
+
+.api {
+    background-color: skyblue;
+}
+
+.other {
+    background-color: slategrey;
+}
+
+.tagged {
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    padding: 2px 8px;
+    margin-right: 1px;
 }
 
 #to-do-list {
-    text-decoration: none;
-    color: white;
     background-color: green;
 }
 
-#coffee {
+a {
     text-decoration: none;
-    color: white;
+    color: black;
+}
+
+p {
+    margin: 0;
+}
+
+#coffee {
     background-color: burlywood;
 }
 
 #project {
     color: white;
     background-color: gray;
+}
+
+.section {
+    box-shadow: 0px 0px 0px 1px black inset;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.section:hover {
+    box-shadow: 0px 0px 0px 2px #0127ec inset;
+    background-color: #00000030;
+}
+
+.tags {
+    margin-top: 25px;
+    font-size: 9pt;
 }
